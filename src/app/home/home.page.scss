@@ -1,1 +1,65 @@
 
+ion-item {
+    margin: 20px 0;
+}
+
+#close-scanner-button {
+    display: none;
+}
+
+html.qr-scanner-open {
+
+    ion-app,
+    ion-content {
+        height: 70px !important;
+    }
+
+    ion-content {
+        --overflow: hidden !important;
+    }
+
+    ion-header,
+    ion-footer,
+    ion-content > *:not(#close-scanner-button) {
+        display: none;
+    }
+
+    #close-scanner-button {
+        display: block;
+    }
+}
+.count {
+    position: relative;
+    left: 60px;
+    top: 10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.mode {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.code {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+
+ion-button.footer-btn {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin: 10px 0 0;
+    text-align: center;
+    img {
+        height: 64px;
+    }
+    span {
+        font-weight: 300;
+    }
+}

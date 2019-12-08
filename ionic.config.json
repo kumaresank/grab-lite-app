@@ -1,5 +1,7 @@
 {
   "name": "grab-lite",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
